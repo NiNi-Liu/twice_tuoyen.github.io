@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--開頭動畫-->
+    <div id="bm" class="bmc"></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie_svg.js"></script>
+        <script src="index.js"></script>
+        <script>
+          $(window).on("load",function(){
+              setTimeout(function(){$(".bmc").fadeOut("slow")},3000); 
+          })
+      </script>
+    <div>
+            <header class="header">
+                <div class="header_div">
+                    <a href="index.html" >
+                            <img src="img/LOGO.png" alt="logo" class="logo">
+                    </a>
+                        
+                        <ul>
+                                <li><a href="html/members.html">Members</a></li>
+                                <li><a href="html/introduce.html">Introduce</a></li>
+                                <li><a href="html/music.html">Music Video</a></li>
+                                <li><a href="html/concert.html">Concert</a></li>
+                        </ul>
+                        <div class="login-box">
+                            <a href="https://i.ibb.co/kXYMPPv/TWICE-LOGIN.png"><h3 class="Login">Login</h3></a>
+                        </div>
+                </div>
+            </header>
+            <article class="article">
+                    <img src="img/HOME1.jpg" alt="1" class="pic1">
+                <div class="aside">
+                        <h1>TWICE</h1>
+                        <p>「透過舞台令耳朵得到感動之後，再為眼睛帶來多一次感動。」</p>
+                </div>
+                <img src="img/HOME2.jpg" alt="1" class="pic2">
+                <div class="aside">
+                        <h1>ONE IN A MILLION</h1>
+                        <p>「粉絲們只要給予一次的愛，我們就會以兩倍的愛去報答大家。」</p>
+                </div>
+
+            </article>
+            <footer class="footer">
+                    <ul>
+                            <li><a href="https://www.instagram.com/twicetagram/?hl=zh-tw" target="blank">
+                                <div class="header_div">
+                                    <img src="img/IG icon.png" alt=""><p>TWICE</p>
+                                </div>
+                            </a></li>
+                            <li><a href="https://twitter.com/jypetwice" target="blank">
+                                <div class="header_div">
+                                     <img src="img/TWITTER icon.png" alt=""><p>TWICE</p>
+                                </div>
+                            </a></li>
+                            <li><a href="https://www.facebook.com/JYPETWICE" target="blank">
+                                <div class="header_div">
+                                    <img src="img/FB icon.png" alt=""><p>TWICE</p>
+                                </div>
+                            </a></li>
+                            <li><a href="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA" target="blank">
+                                <div class="header_div">
+                                        <img src="img/YOUTUBE icon.png" alt=""><p>TWICE</p>
+                                </div>
+                            </a></li>
+
+                    </ul>
+
+            </footer>
+    </div>
+</body>
+</html>

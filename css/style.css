@@ -1,0 +1,568 @@
+html{
+    background-image: url('https://i.ibb.co/s60f3zN/image.png');
+    height: 2820px;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+.header{
+    margin-bottom: 20px;
+
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+    margin: 10px 0px 15px 90px;
+}
+
+.login-box a{
+    text-decoration:none;
+}
+
+.header_div{
+    display: flex;
+
+}
+
+.header ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+.header li a{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 330px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 160px;
+    text-decoration:none;
+    margin: 0px 50px;
+    letter-spacing:2px;
+    
+}
+
+.header li {
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+
+.header li a:hover {
+    color: rgb(63, 43, 49);
+    
+  }
+
+.login-box{
+    background: rgb(201, 141, 153);
+    margin: 40px 80px 20px 0px;
+    display: inline-block;
+    height: 65px;
+    width: 172px;
+    border-radius:40px;
+}
+
+.login-box:hover {
+    background: rgb(216, 168, 180);
+    color: #FFF;
+  }
+
+.Login{
+color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  width: 172px;
+  line-height: 68px;
+  text-align: center;
+  margin: 0px;
+  letter-spacing:5px;
+}
+
+header img:hover{
+    filter:brightness(85%);
+}
+
+
+
+
+.pic1{
+    margin-top: 120px;
+    border: 2.5px solid #ffffff;
+    padding: 40px;
+    width: 1140px;
+    height: 760px;
+}
+
+.pic2{
+    
+    border: 2.5px solid #ffffff;
+    padding: 40px;
+    width: 1140px;
+    height: 760px;
+
+}
+.article img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.aside{
+    background-image: url('https://i.ibb.co/Fg08ptV/image.png');
+    
+    height: 360px;
+    margin-bottom: 60PX;
+}
+
+.article h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 87px;
+    font-weight: 300px;
+    margin: 0;
+    text-align: center;
+    letter-spacing:15px;
+    padding: 50px;
+}
+
+.article p{
+    color: rgb(255, 255, 255);
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    letter-spacing:5px;
+}
+
+
+
+.footer img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.footer p{
+    margin-top: 64px;
+    margin-left: 20px;
+}
+
+.footer ul {
+    text-align: center;
+    margin-left: 80px;
+  }
+  
+.footer li a{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 250px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 200px;
+    text-decoration:none;
+    letter-spacing:3px;
+    
+
+    
+}
+
+.footer li {
+    display: inline-block;
+   
+}
+
+.footer li a:hover {
+    color: rgb(63, 43, 49);
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px){
+
+    html{
+        background-image: url('https://i.ibb.co/s60f3zN/image.png');
+        height: 1000px;
+    }
+    
+    *,*:before,*:after{
+        box-sizing: border-box;
+    }
+    
+    .header{
+        margin-bottom: 20px;
+    
+    }
+    
+    .logo{
+        width: 70px;
+        height: 70px;
+        margin: 30px 0px 15px 5px;
+    }
+    
+    .login-box a{
+        text-decoration:none;
+    }
+    
+    .header ul {
+        margin: 30px auto;
+        padding: 0 10px;
+        text-align: center;
+      }
+      
+    .header li a{
+        color: #FFF;
+        font-family: 'Oswald', sans-serif;
+        font-size: 3px;
+        font-weight: 330px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 80px;
+        text-decoration:none;
+        margin: 0px 6px;
+        letter-spacing:2px;
+        
+    }
+    
+    .header li {
+        display: inline-block;
+        margin-top: 30px;
+        
+    }
+    
+    .header li a:hover {
+        color: rgb(63, 43, 49);
+        
+      }
+    
+    .login-box{
+        background: rgb(201, 141, 153);
+        margin: 40px 0px 20px 0px;
+        display: inline-block;
+        height: 65px;
+        width: 172px;
+        border-radius:40px;
+    }
+    
+    .login-box:hover {
+        background: rgb(216, 168, 180);
+        color: #FFF;
+      }
+    
+    .Login{
+    color: #FFF;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+      font-weight: 300px;
+      text-transform: uppercase;
+      width: 172px;
+      line-height: 68px;
+      text-align: center;
+      margin: 0px;
+      letter-spacing:5px;
+    }
+    
+    header img:hover{
+        filter:brightness(85%);
+    }
+    
+    
+    
+    
+    .pic1{
+        margin-top: 120px;
+        border: 2.5px solid #ffffff;
+        padding: 40px;
+        width: 650px;
+        height: 480px;
+    }
+    
+    .pic2{
+        
+        border: 2.5px solid #ffffff;
+        padding: 40px;
+        width: 650px;
+        height: 480px;
+    
+    }
+    .article img{
+        margin-left: 70PX;
+        margin-right: auto;
+        display: block;
+        
+    
+    }
+    
+    .aside{
+        background-image: url('https://i.ibb.co/Fg08ptV/image.png');
+        
+        height: 365px;
+        width: 760PX;
+    }
+    
+    .article h1{
+        color: rgb(255, 255, 255);
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 50px;
+        font-weight: 300px;
+        margin: 0;
+        text-align: center;
+        letter-spacing:15px;
+        padding: 50px;
+    }
+    
+    .article p{
+        color: rgb(255, 255, 255);
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+        text-align: center;
+        letter-spacing:5px;
+    }
+    
+    
+    
+    .footer img{
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    
+    .footer p{
+        margin-top: 64px;
+        margin-left: 20px;
+    }
+    
+    .footer ul {
+        text-align: center;
+        margin-left: 80px;
+        width: 1300PX;
+      }
+      
+    .footer li a{
+        color: #FFF;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 250px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 300px;
+        text-decoration:none;
+        letter-spacing:3px;
+        
+    
+        
+    }
+    
+    .footer li {
+        display: inline-block;
+       
+    }
+    
+    .footer li a:hover {
+        color: rgb(63, 43, 49);
+      }
+  }
+  
+  
+  
+  @media only screen and (max-width: 320px){
+    html{
+        background-image: url('https://i.ibb.co/s60f3zN/image.png');
+        height: 1000px;
+    }
+    
+    *,*:before,*:after{
+        box-sizing: border-box;
+    }
+    
+    .header{
+        margin-bottom: 20px;
+    
+    }
+    
+    .logo{
+        width: 70px;
+        height: 70px;
+        margin: 30px 0px 15px 10px;
+    }
+    
+    .login-box a{
+        text-decoration:none;
+    }
+    
+
+    
+    .header ul {
+        margin: 30px auto;
+        padding: 0 20px;
+        text-align: center;
+      }
+      
+    .header li a{
+        color: #FFF;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1px;
+        font-weight: 330px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 80px;
+        text-decoration:none;
+        margin: 0px 20px;
+        letter-spacing:2px;
+        
+    }
+    
+    .header li {
+        display: inline-block;
+        margin-top: 3px;
+        
+    }
+    
+    .header li a:hover {
+        color: rgb(63, 43, 49);
+        
+      }
+    
+    .login-box{
+        background: rgb(201, 141, 153);
+        margin: 40px 80px 20px 0px;
+        display: inline-block;
+        height: 30px;
+        width: 70px;
+        border-radius:40px;
+    }
+    
+    .login-box:hover {
+        background: rgb(216, 168, 180);
+        color: #FFF;
+      }
+    
+    .Login{
+    color: #FFF;
+      font-family: 'Oswald', sans-serif;
+      font-size: 1px;
+      font-weight: 300px;
+      text-transform: uppercase;
+      width: 80px;
+      line-height: 30px;
+      text-align: center;
+      margin: 0px;
+      letter-spacing:5px;
+    }
+    
+    header img:hover{
+        filter:brightness(85%);
+    }
+    
+    
+    
+    
+    .pic1{
+        margin-top: 20px;
+        border: 1.5px solid #ffffff;
+        padding: 15px;
+        width: 300px;
+        height: 250px;
+    }
+    
+    .pic2{
+        
+        margin-top: 20px;
+        border: 1.5px solid #ffffff;
+        padding: 15px;
+        width: 300px;
+        height: 250px;
+    
+    }
+    .article img{
+        margin-left: 5PX;
+        margin-right: auto;
+        display: block;
+        
+    
+    }
+    
+    .aside{
+        background-image: url('https://i.ibb.co/Fg08ptV/image.png');
+        
+        height: 180px;
+        width: 320PX;
+    }
+    
+    .article h1{
+        color: rgb(255, 255, 255);
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 20px;
+        font-weight: 300px;
+        margin: 0;
+        text-align: center;
+        letter-spacing:15px;
+        padding: 30px;
+    }
+    
+    .article p{
+        color: rgb(255, 255, 255);
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        margin: 0;
+        text-align: center;
+        letter-spacing:5px;
+    }
+    
+    
+    
+    .footer img{
+        width: 20px;
+        height: 20px;
+        margin-top: 0px;
+    }
+    
+    .footer p{
+        margin-top:0px;
+        margin-left: 10px;
+    }
+    
+    
+    .footer ul {
+
+        margin-left: 0px;
+        width: 300PX;
+      }
+      
+    .footer li a{
+        color: #FFF;
+        font-family: 'Oswald', sans-serif;
+        font-size: 10px;
+        font-weight: 250px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 100px;
+        text-decoration:none;
+        letter-spacing:3px;
+        
+    
+        
+    }
+    
+    .footer li {
+        display: inline-block;
+       
+    }
+    
+    .footer li a:hover {
+        color: rgb(63, 43, 49);
+      }
+  }
+  
